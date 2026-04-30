@@ -1,15 +1,13 @@
 # opencode-to-atif-traces
 
-To install dependencies:
+OpenCode plugin to generate [Agent Trajectory Interchange Format (ATIF)](https://www.harborframework.com/docs/agents/trajectory-format) traces. Follows Harbor framework [ATIF v1.7 RFC](https://github.com/harbor-framework/harbor/blob/main/rfcs/0001-trajectory-format.md).
+
+## Usage
 
 ```bash
-bun install
+ATIF=./trace.json opencode run "..."
 ```
 
-To run:
+## License
 
-```bash
-bun run src/index.ts
-```
-
-This project was created using `bun init` in bun v1.3.13. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+MIT
