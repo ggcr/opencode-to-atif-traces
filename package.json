@@ -1,0 +1,49 @@
+{
+    "name": "opencode-to-atif-traces",
+    "version": "0.0.1",
+    "description": "OpenCode plugin to generate ATIF traces.",
+    "author": {
+        "name": "ggcr",
+        "email": "ggcristian@icloud.com"
+    },
+    "main": "src/index.ts",
+    "module": "src/index.ts",
+    "type": "module",
+    "license": "MIT",
+    "keywords": [
+        "opencode",
+        "opencode-plugin",
+        "atif",
+        "traces",
+        "harbor",
+        "ai-agent",
+        "agent-traces",
+        "tracing",
+        "observability"
+    ],
+    "files": [
+        "src/"
+    ],
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "devDependencies": {
+        "@types/bun": "latest"
+    },
+    "peerDependencies": {
+        "typescript": "^5"
+    },
+    "dependencies": {
+        "@opencode-ai/plugin": "^1.14.30",
+        "@opencode-ai/sdk": "^1.14.30",
+        "zod": "^4.4.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ggcr/opencode-to-atif-traces.git"
+    },
+    "bugs": {
+        "url": "https://github.com/ggcr/opencode-to-atif-traces/issues"
+    },
+    "homepage": "https://github.com/ggcr/opencode-to-atif-traces#readme"
+}
