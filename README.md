@@ -20,7 +20,7 @@ OpenCode installs and caches plugin dependencies automatically on startup.
 Set the `ATIF` env var to the output path and run `opencode` as you normally would:
 
 ```bash
-ATIF=traces.jsonl \
+ATIF=traces.json \
   opencode run "Refactor the XML parser to use a tree structure."
 ```
 
