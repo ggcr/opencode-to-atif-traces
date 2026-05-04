@@ -1,5 +1,7 @@
 # opencode-to-atif-traces
 
+[![npm version](https://img.shields.io/npm/v/opencode-to-atif-traces?style=flat-square)](https://www.npmjs.com/package/opencode-to-atif-traces) [![License](https://img.shields.io/github/license/ggcr/opencode-to-atif-traces?style=flat-square)](LICENSE)
+
 OpenCode plugin to export [Agent Trajectory Interchange Format (ATIF)](https://www.harborframework.com/docs/agents/trajectory-format) traces.
 
 ## Install
