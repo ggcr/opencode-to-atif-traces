@@ -4,19 +4,6 @@
 
 OpenCode plugin to export [Agent Trajectory Interchange Format (ATIF)](https://www.harborframework.com/docs/agents/trajectory-format) traces.
 
-## Install
-
-Add the package to the `plugin` array in your `opencode.json` (see the [OpenCode plugin docs](https://opencode.ai/docs/plugins/)):
-
-```json
-{
-  "$schema": "https://opencode.ai/config.json",
-  "plugin": ["opencode-to-atif-traces"]
-}
-```
-
-OpenCode installs and caches plugin dependencies automatically on startup.
-
 ## Usage
 
 Set the `ATIF` env var to the output path and run `opencode` as you normally would:
@@ -33,6 +20,19 @@ Tracing happens in the background, so you still get the normal stdout / stderr o
 Work in progress, and not yet battle-tested. The plan is to add tests that mirror the Harbor team's implementation, and to keep the schema in sync as ATIF evolves.
 
 Contributions, issues, and feedback are very welcome. Please open an issue or PR if something is broken or could be better.
+
+## Install
+
+Add the package to the `plugin` array in your `opencode.json` (see the [OpenCode plugin docs](https://opencode.ai/docs/plugins/)):
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["opencode-to-atif-traces"]
+}
+```
+
+OpenCode installs and caches plugin dependencies automatically on startup.
 
 ## Acknowledgements
 
